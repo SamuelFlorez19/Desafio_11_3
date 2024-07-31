@@ -1,29 +1,29 @@
 @import 'bootstrap'; /* clases de bootstrap */
 
-
-.alerta {
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    margin: 1rem auto;
-    text-align: center;
+html, .container-button,.numero{
+    background-color: rgb(90, 149, 153);
 }
 
-.alerta-exito {
-    background-color: #c6efce;
-    border: 1px solid #3e8e41;
-    color: #3e8e41;
+.numero{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
-
-.alerta-advertencia {
-    background-color: #ffd700;
-    border: 1px solid #8b9467;
-    color: #8b9467;
+.contador{
+    font-size: 20rem;
 }
-
-.alerta-error {
-    background-color: #ffc6c6;
-    border: 1px solid #8b0a1a;
-    color: #8b0a1a;
+.container-button{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 16px;
+    border: 2.8px solid blue;
+    background-color: beige;
 }
